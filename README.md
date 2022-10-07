@@ -18,8 +18,8 @@ The operation of the smart bracelet couple is as follows:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- parent’s bracelet listens for messages and accepts only the ones coming from the child’s<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- child’s bracelet periodically transmits INFO messages<br>
 3. __Alert__:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Upon reception of an INFO message, the parent’s bracelet reads it. If the kinematic status is FALLING, the bracelet displays a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FALL alarm<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- if the parent’s bracelet does not receive any message, after one minute from the last received message, a MISSING alarm is sent &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reporting the last position received
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Upon reception of an INFO message, the parent’s bracelet reads it. If the kinematic status is FALLING, the bracelet displays a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FALL alarm<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- if the parent’s bracelet does not receive any message, after one minute from the last received message, a MISSING alarm is sent &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reporting the last position received
 
 ### Implementation Choices:
 - TinyOS application -> [code](https://github.com/LorenzoMainetti/IOT-2022-Latino-Mainetti/tree/main/Project/TinyOS)

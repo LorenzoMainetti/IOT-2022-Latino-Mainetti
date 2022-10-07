@@ -10,16 +10,16 @@ You are requested to design, implement and test a software prototype for a smart
 The bracelet is worn by a child and her/his parent to keep track of the child’s position and trigger alerts when a child goes too far.
 
 The operation of the smart bracelet couple is as follows:
-1. __Pairing__:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- broadcast a 20-char random key<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- upon reception of key checks whether the received random key is equal to the stored one<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- special message is transmitted to stop the pairing<br>
+1. __Pairing__:
+> - broadcast a 20-char random key<br>
+> - upon reception of key checks whether the received random key is equal to the stored one<br>
+> - special message is transmitted to stop the pairing<br>
 2. __Operation__:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- parent’s bracelet listens for messages and accepts only the ones coming from the child’s<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- child’s bracelet periodically transmits INFO messages<br>
+> - parent’s bracelet listens for messages and accepts only the ones coming from the child’s<br>
+> - child’s bracelet periodically transmits INFO messages<br>
 3. __Alert__:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Upon reception of an INFO message, the parent’s bracelet reads it. If the kinematic status is FALLING, the bracelet displays <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a FALL alarm<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- if the parent’s bracelet does not receive any message, after one minute from the last received message, a MISSING alarm is <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sent reporting the last position received
+> - Upon reception of an INFO message, the parent’s bracelet reads it. If the kinematic status is FALLING, the bracelet displays a FALL alarm<br>
+> - if the parent’s bracelet does not receive any message, after one minute from the last received message, a MISSING alarm is sent reporting the last position received
 
 ### Implementation Choices:
 - TinyOS application -> [code](https://github.com/LorenzoMainetti/IOT-2022-Latino-Mainetti/tree/main/Project/TinyOS)

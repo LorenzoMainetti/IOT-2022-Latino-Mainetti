@@ -1,0 +1,162 @@
+DEBUG (1): Application booted.
+DEBUG (2): Application booted.
+DEBUG (1): Radio on on node 1!
+DEBUG (2): Radio on on node 2!
+DEBUG (1): Timer fired, counter is 1.
+DEBUG (1): Sending packet at time 0:0:0.976562510 
+DEBUG (2): Received packet at time 0:0:0.980148304
+		 Payload 
+		 msg_type: 1 
+		 counter: 1 
+		 value: 0 
+DEBUG (1): Send done at time 0:0:0.980316150 
+DEBUG (1): Received ack at time 0:0:0.980316150 
+DEBUG (2): Sending packet at time 0:0:0.989257822 
+DEBUG (1): Received packet at time 0:0:0.999160718
+		 Payload 
+		 msg_type: 2 
+		 counter: 1 
+		 value: 245 
+DEBUG (2): Send done at time 0:0:0.999328564 
+DEBUG (2): Received ack at time 0:0:0.999328564 
+DEBUG (1): Timer fired, counter is 2.
+DEBUG (1): Sending packet at time 0:0:1.953125010 
+DEBUG (2): Received packet at time 0:0:1.961532553
+		 Payload 
+		 msg_type: 1 
+		 counter: 2 
+		 value: 0 
+DEBUG (1): Send done at time 0:0:1.961700399 
+DEBUG (1): Received ack at time 0:0:1.961700399 
+DEBUG (2): Sending packet at time 0:0:1.970703135 
+DEBUG (1): Received packet at time 0:0:1.977691619
+		 Payload 
+		 msg_type: 2 
+		 counter: 2 
+		 value: 211 
+DEBUG (2): Send done at time 0:0:1.977859465 
+DEBUG (2): Received ack at time 0:0:1.977859465 
+DEBUG (1): Timer fired, counter is 3.
+DEBUG (1): Sending packet at time 0:0:2.929687510 
+DEBUG (2): Received packet at time 0:0:2.935867283
+		 Payload 
+		 msg_type: 1 
+		 counter: 3 
+		 value: 0 
+DEBUG (1): Send done at time 0:0:2.936035129 
+DEBUG (1): Received ack at time 0:0:2.936035129 
+DEBUG (2): Sending packet at time 0:0:2.945312510 
+DEBUG (1): Received packet at time 0:0:2.954437212
+		 Payload 
+		 msg_type: 2 
+		 counter: 3 
+		 value: 141 
+DEBUG (2): Send done at time 0:0:2.954605058 
+DEBUG (2): Received ack at time 0:0:2.954605058 
+DEBUG (1): Timer fired, counter is 4.
+DEBUG (1): Sending packet at time 0:0:3.906250010 
+DEBUG (2): Received packet at time 0:0:3.910079943
+		 Payload 
+		 msg_type: 1 
+		 counter: 4 
+		 value: 0 
+DEBUG (1): Send done at time 0:0:3.910247789 
+DEBUG (1): Received ack at time 0:0:3.910247789 
+DEBUG (2): Sending packet at time 0:0:3.918945322 
+DEBUG (1): Received packet at time 0:0:3.929351755
+		 Payload 
+		 msg_type: 2 
+		 counter: 4 
+		 value: 127 
+DEBUG (2): Send done at time 0:0:3.929519601 
+DEBUG (2): Received ack at time 0:0:3.929519601 
+DEBUG (1): Timer fired, counter is 5.
+DEBUG (1): Sending packet at time 0:0:4.882812510 
+DEBUG (2): Received packet at time 0:0:4.888626074
+		 Payload 
+		 msg_type: 1 
+		 counter: 5 
+		 value: 0 
+DEBUG (1): Send done at time 0:0:4.888793920 
+DEBUG (1): Received ack at time 0:0:4.888793920 
+DEBUG (2): Sending packet at time 0:0:4.897460947 
+DEBUG (1): Received packet at time 0:0:4.901992781
+		 Payload 
+		 msg_type: 2 
+		 counter: 5 
+		 value: 135 
+DEBUG (2): Send done at time 0:0:4.902160627 
+DEBUG (2): Received ack at time 0:0:4.902160627 
+DEBUG (1): Timer fired, counter is 6.
+DEBUG (1): Sending packet at time 0:0:5.859375010 
+DEBUG (2): Received packet at time 0:0:5.861267088
+		 Payload 
+		 msg_type: 1 
+		 counter: 6 
+		 value: 0 
+DEBUG (1): Send done at time 0:0:5.861434934 
+DEBUG (1): Received ack at time 0:0:5.861434934 
+DEBUG (2): Sending packet at time 0:0:5.870117197 
+DEBUG (1): Received packet at time 0:0:5.872879022
+		 Payload 
+		 msg_type: 2 
+		 counter: 6 
+		 value: 88 
+DEBUG (2): Send done at time 0:0:5.873046867 
+DEBUG (2): Received ack at time 0:0:5.873046867 
+DEBUG (1): Timer fired, counter is 7.
+DEBUG (1): Sending packet at time 0:0:6.835937510 
+DEBUG (2): Received packet at time 0:0:6.843475307
+		 Payload 
+		 msg_type: 1 
+		 counter: 7 
+		 value: 0 
+DEBUG (1): Send done at time 0:0:6.843643153 
+DEBUG (1): Received ack at time 0:0:6.843643153 
+DEBUG (2): Sending packet at time 0:0:6.852539072 
+DEBUG (1): Received packet at time 0:0:6.856018056
+		 Payload 
+		 msg_type: 2 
+		 counter: 7 
+		 value: 136 
+DEBUG (2): Send done at time 0:0:6.856185901 
+DEBUG (2): Received ack at time 0:0:6.856185901 
+DEBUG (1): Timer fired, counter is 8.
+DEBUG (1): Sending packet at time 0:0:7.812500010 
+DEBUG (2): Received packet at time 0:0:7.822189284
+		 Payload 
+		 msg_type: 1 
+		 counter: 8 
+		 value: 0 
+DEBUG (1): Send done at time 0:0:7.822357130 
+DEBUG (1): Received ack at time 0:0:7.822357130 
+DEBUG (2): Sending packet at time 0:0:7.831054697 
+DEBUG (1): Received packet at time 0:0:7.839065515
+		 Payload 
+		 msg_type: 2 
+		 counter: 8 
+		 value: 252 
+DEBUG (2): Send done at time 0:0:7.839233360 
+DEBUG (2): Received ack at time 0:0:7.839233360 
+DEBUG (1): Timer fired, counter is 9.
+DEBUG (1): Sending packet at time 0:0:8.789062510 
+DEBUG (2): Received packet at time 0:0:8.796417203
+		 Payload 
+		 msg_type: 1 
+		 counter: 9 
+		 value: 0 
+DEBUG (1): Send done at time 0:0:8.796585049 
+DEBUG (1): Received ack at time 0:0:8.796585049 
+Counter reached max
+DEBUG (2): Sending packet at time 0:0:8.805664072 
+DEBUG (1): Received packet at time 0:0:8.807250977
+		 Payload 
+		 msg_type: 2 
+		 counter: 9 
+		 value: 203 
+DEBUG (2): Send done at time 0:0:8.807418823 
+DEBUG (2): Received ack at time 0:0:8.807418823 
+
+
+
+Simulation finished!

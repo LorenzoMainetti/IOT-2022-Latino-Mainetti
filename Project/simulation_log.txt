@@ -1,0 +1,238 @@
+********************************************
+*                                          *
+*             TOSSIM Script                *
+*                                          *
+********************************************
+Initializing mac....
+Initializing radio channels....
+    using topology file: topology.txt
+    using noise file: meyer-heavy.txt
+Initializing simulator....
+Activate debug message on channel boot
+Activate debug message on channel timer
+Activate debug message on channel radio
+Activate debug message on channel radio_send
+Activate debug message on channel radio_ack
+Activate debug message on channel radio_rec
+Activate debug message on channel radio_pack
+Activate debug message on channel radio_display
+Creating node 1...
+>>>Will boot at time 0 [sec]
+Creating node 2...
+>>>Will boot at time 0 [sec]
+Creating node 3...
+>>>Will boot at time 0 [sec]
+Creating node 4...
+>>>Will boot at time 0 [sec]
+Creating radio channels...
+>>>Setting radio channel from node  1  to node  2  with gain  -60.0  dBm
+>>>Setting radio channel from node  1  to node  3  with gain  -60.0  dBm
+>>>Setting radio channel from node  1  to node  4  with gain  -60.0  dBm
+>>>Setting radio channel from node  2  to node  1  with gain  -60.0  dBm
+>>>Setting radio channel from node  2  to node  3  with gain  -60.0  dBm
+>>>Setting radio channel from node  2  to node  4  with gain  -60.0  dBm
+>>>Setting radio channel from node  3  to node  1  with gain  -60.0  dBm
+>>>Setting radio channel from node  3  to node  2  with gain  -60.0  dBm
+>>>Setting radio channel from node  3  to node  4  with gain  -60.0  dBm
+>>>Setting radio channel from node  4  to node  1  with gain  -60.0  dBm
+>>>Setting radio channel from node  4  to node  2  with gain  -60.0  dBm
+>>>Setting radio channel from node  4  to node  3  with gain  -60.0  dBm
+Initializing Closest Pattern Matching (CPM)...
+Reading noise model data file: meyer-heavy.txt
+Loading:##Done!
+>>>Creating noise model for node: 1
+>>>Creating noise model for node: 2
+>>>Creating noise model for node: 3
+>>>Creating noise model for node: 4
+Start simulation with TOSSIM! 
+
+
+
+DEBUG (1): Application booted.
+DEBUG (4): Application booted.
+DEBUG (3): Application booted.
+DEBUG (2): Application booted.
+DEBUG (1): Radio on on node 1!
+DEBUG (2): Radio on on node 2!
+DEBUG (4): Radio on on node 4!
+DEBUG (3): Radio on on node 3!
+DEBUG (3): [PAIRING] Timer fired
+DEBUG (3): [PAIRING] Broadcasting key at time 0:0:9.765625010 
+DEBUG (1): [PAIRING] Timer fired
+DEBUG (1): [PAIRING] Broadcasting key at time 0:0:9.765625010 
+DEBUG (2): [PAIRING] Timer fired
+DEBUG (2): [PAIRING] Broadcasting key at time 0:0:9.765625010 
+DEBUG (4): [PAIRING] Timer fired
+DEBUG (4): [PAIRING] Broadcasting key at time 0:0:9.765625010 
+DEBUG (2): [PAIRING] Received matching key at time 0:0:9.768310541
+		 key: BFBD2d3VsBNIsfJO68dI 
+DEBUG (3): [PAIRING] Received matching key at time 0:0:9.772125216
+		 key: xr3gBthvdhvFhvB6iHUH 
+DEBUG (1): [PAIRING] Received matching key at time 0:0:9.774230916
+		 key: BFBD2d3VsBNIsfJO68dI 
+DEBUG (1): [PAIRING] Sending pair ack at time 0:0:9.774230916 
+DEBUG (4): [PAIRING] Received matching key at time 0:0:9.776214547
+		 key: xr3gBthvdhvFhvB6iHUH 
+DEBUG (4): [PAIRING] Sending pair ack at time 0:0:9.776214547 
+DEBUG (2): [PAIRING] Received pair ack at time 0:0:9.781951819
+DEBUG (1): [PAIRING] Received ack at time 0:0:9.782119664 
+DEBUG (3): [PAIRING] Received pair ack at time 0:0:9.786208996
+DEBUG (4): [PAIRING] Received ack at time 0:0:9.786376842 
+DEBUG (2): [OPERATION] Timer fired
+DEBUG (4): [OPERATION] Timer fired
+DEBUG (2): [OPERATION] Sending INFO message at time 0:0:19.556640635 
+DEBUG (1): [OPERATION] Received INFO message at time 0:0:19.560012807
+		 Payload 
+		 status: R 
+		 x_pos: 86 
+		 y_pos: 77 
+DEBUG (4): [OPERATION] Sending INFO message at time 0:0:19.561523447 
+DEBUG (3): [OPERATION] Received INFO message at time 0:0:19.566192609
+		 Payload 
+		 status: R 
+		 x_pos: 93 
+		 y_pos: 35 
+DEBUG (2): [OPERATION] Timer fired
+DEBUG (4): [OPERATION] Timer fired
+DEBUG (2): [OPERATION] Sending INFO message at time 0:0:29.322265635 
+DEBUG (4): [OPERATION] Sending INFO message at time 0:0:29.327148447 
+DEBUG (1): [OPERATION] Received INFO message at time 0:0:29.329925502
+		 Payload 
+		 status: W 
+		 x_pos: 92 
+		 y_pos: 49 
+DEBUG (3): [OPERATION] Received INFO message at time 0:0:29.334670986
+		 Payload 
+		 status: S 
+		 x_pos: 62 
+		 y_pos: 27 
+DEBUG (4): [OPERATION] Timer fired
+DEBUG (4): [OPERATION] Sending INFO message at time 0:0:39.092773447 
+DEBUG (3): [OPERATION] Received INFO message at time 0:0:39.100082364
+		 Payload 
+		 status: S 
+		 x_pos: 59 
+		 y_pos: 63 
+DEBUG (4): [OPERATION] Timer fired
+DEBUG (4): [OPERATION] Sending INFO message at time 0:0:48.858398447 
+DEBUG (3): [OPERATION] Received INFO message at time 0:0:48.867492632
+		 Payload 
+		 status: W 
+		 x_pos: 40 
+		 y_pos: 26 
+DEBUG (4): [OPERATION] Timer fired
+DEBUG (4): [OPERATION] Sending INFO message at time 0:0:58.624023447 
+DEBUG (3): [OPERATION] Received INFO message at time 0:0:58.626998894
+		 Payload 
+		 status: S 
+		 x_pos: 36 
+		 y_pos: 11 
+DEBUG (4): [OPERATION] Timer fired
+DEBUG (4): [OPERATION] Sending INFO message at time 0:1:8.389648447 
+DEBUG (3): [OPERATION] Received INFO message at time 0:1:8.392745963
+		 Payload 
+		 status: W 
+		 x_pos: 67 
+		 y_pos: 29 
+DEBUG (4): [OPERATION] Timer fired
+DEBUG (4): [OPERATION] Sending INFO message at time 0:1:18.155273447 
+DEBUG (3): [OPERATION] Received INFO message at time 0:1:18.163513145
+		 Payload 
+		 status: S 
+		 x_pos: 30 
+		 y_pos: 62 
+DEBUG (4): [OPERATION] Timer fired
+DEBUG (4): [OPERATION] Sending INFO message at time 0:1:27.920898447 
+DEBUG (1): [ALERT] Timer fired
+DEBUG (1): [ALERT] Displaying MISSING ALARM message:
+		 last x_pos received: 92 
+		 last y_pos received: 49 
+DEBUG (3): [OPERATION] Received INFO message at time 0:1:27.929077110
+		 Payload 
+		 status: R 
+		 x_pos: 67 
+		 y_pos: 35 
+DEBUG (4): [OPERATION] Timer fired
+DEBUG (4): [OPERATION] Sending INFO message at time 0:1:37.686523447 
+DEBUG (3): [OPERATION] Received INFO message at time 0:1:37.695709184
+		 Payload 
+		 status: F 
+		 x_pos: 2 
+		 y_pos: 22 
+DEBUG (3): [ALERT] Displaying FALL ALARM message:
+		 x_pos: 2 
+		 y_pos: 22 
+DEBUG (4): [OPERATION] Timer fired
+DEBUG (4): [OPERATION] Sending INFO message at time 0:1:47.452148447 
+DEBUG (3): [OPERATION] Received INFO message at time 0:1:47.459411588
+		 Payload 
+		 status: W 
+		 x_pos: 69 
+		 y_pos: 67 
+DEBUG (4): [OPERATION] Timer fired
+DEBUG (4): [OPERATION] Sending INFO message at time 0:1:57.217773447 
+DEBUG (3): [OPERATION] Received INFO message at time 0:1:57.219940182
+		 Payload 
+		 status: R 
+		 x_pos: 56 
+		 y_pos: 11 
+DEBUG (4): [OPERATION] Timer fired
+DEBUG (4): [OPERATION] Sending INFO message at time 0:2:6.983398447 
+DEBUG (3): [OPERATION] Received INFO message at time 0:2:6.990127534
+		 Payload 
+		 status: S 
+		 x_pos: 29 
+		 y_pos: 73 
+DEBUG (4): [OPERATION] Timer fired
+DEBUG (4): [OPERATION] Sending INFO message at time 0:2:16.749023447 
+DEBUG (3): [OPERATION] Received INFO message at time 0:2:16.751586909
+		 Payload 
+		 status: S 
+		 x_pos: 19 
+		 y_pos: 84 
+DEBUG (4): [OPERATION] Timer fired
+DEBUG (4): [OPERATION] Sending INFO message at time 0:2:26.514648447 
+DEBUG (3): [OPERATION] Received INFO message at time 0:2:26.522750817
+		 Payload 
+		 status: W 
+		 x_pos: 98 
+		 y_pos: 24 
+DEBUG (4): [OPERATION] Timer fired
+DEBUG (4): [OPERATION] Sending INFO message at time 0:2:36.280273447 
+DEBUG (3): [OPERATION] Received INFO message at time 0:2:36.282882685
+		 Payload 
+		 status: R 
+		 x_pos: 70 
+		 y_pos: 13 
+DEBUG (4): [OPERATION] Timer fired
+DEBUG (4): [OPERATION] Sending INFO message at time 0:2:46.045898447 
+DEBUG (3): [OPERATION] Received INFO message at time 0:2:46.050872783
+		 Payload 
+		 status: W 
+		 x_pos: 91 
+		 y_pos: 80 
+DEBUG (4): [OPERATION] Timer fired
+DEBUG (4): [OPERATION] Sending INFO message at time 0:2:55.811523447 
+DEBUG (3): [OPERATION] Received INFO message at time 0:2:55.819366419
+		 Payload 
+		 status: W 
+		 x_pos: 73 
+		 y_pos: 62 
+DEBUG (4): [OPERATION] Timer fired
+DEBUG (4): [OPERATION] Sending INFO message at time 0:3:5.577148447 
+DEBUG (3): [OPERATION] Received INFO message at time 0:3:5.584655727
+		 Payload 
+		 status: S 
+		 x_pos: 96 
+		 y_pos: 81 
+DEBUG (4): [OPERATION] Timer fired
+DEBUG (4): [OPERATION] Sending INFO message at time 0:3:15.342773447 
+DEBUG (3): [OPERATION] Received INFO message at time 0:3:15.344650267
+		 Payload 
+		 status: R 
+		 x_pos: 25 
+		 y_pos: 84 
+
+
+
+Simulation finished!

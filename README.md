@@ -4,7 +4,7 @@ The repository is divided in the following two folders:
 
 * [Challenges](https://github.com/LorenzoMainetti/IOT-2022-Latino-Mainetti/tree/main/Challenges): containing the files related to the 4 challenges carried out during the semester
 
-## Smart Bracalets Project
+## Smart Bracelets Project
 ### Project Scope: 
 You are requested to design, implement and test a software prototype for a smart bracelet. 
 The bracelet is worn by a child and her/his parent to keep track of the child’s position and trigger alerts when a child goes too far.
